@@ -1,0 +1,484 @@
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --batton-background-color: #F5F4FA;
+    --color-fone: #FFFFFF;
+    --background-color: #2F303A;
+    
+}
+
+
+body {
+    background-color: var(--color-fone);
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);  
+        
+    
+}
+
+
+ul{
+    list-style: none;
+}
+
+/**{
+    color: black;
+}
+
+/*лого*/
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;       
+    width: 1170px;
+    /**outline: 2px solid tomato;
+    background-color: rgb(182, 240, 240);**/
+
+}
+
+.container
+.page-header{
+    height: 80px;
+}
+
+.page-header{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo-web {
+    color: var(--accent-color);
+          
+}
+
+.logo-studio {
+    color: var(--title-text-color);
+}
+
+
+/*шапка*/
+.nav{ 
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    padding-left: 0px;
+    margin-left: 93px;
+}
+.nav .item{
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-right: 50px;
+    
+}
+
+.nav .item:last-child{
+    margin-right: 0;
+}
+
+.contacts{
+    display: flex;
+    padding-left: 0px;
+    margin-left: auto;    
+}
+
+.contacts .item + .item{
+    margin-left: 50px;
+}
+
+.nav_batton {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+
+.nav_batton:hover,
+.nav_batton:focus
+{
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.nav_batton:active{
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+
+.nav_contacts{
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.nav_contacts:hover,
+.nav_contacts:focus
+{
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.nav_contacts:active{
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+
+.hero{
+    margin-top: 0;
+    margin-bottom: 40;
+    font-size: 44px; 
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background-color: var(--background-color);
+    color: var(--color-fone);
+
+    padding-top: 200px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.heroys{
+    display: block;
+    background-color: var(--background-color);
+    height: 600px;
+       
+}
+
+.button-hero{
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 485px;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 200px;    
+    color: var(--color-fone);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    line-height:1.87;
+    text-decoration: none;
+    text-align: center;          
+       
+}
+
+.fiska-syle{
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;   
+   }
+
+.fiska-syle .fitem{
+    display: block;
+    padding-top: 94px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-right: 30px;
+}
+
+.fiska-syle .fitem:last-child{
+    margin-right: 0;
+}
+
+.fiska-a{    
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight:700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.fishka-d{
+    margin-top: 0;
+    margin-bottom: 0px;    
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+/*секции*/
+.section-title{
+    padding-top: 94px;
+    padding-bottom: none;    
+    margin-top: 94px;
+    margin-bottom: 0px;      
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.frends{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.container .frierds-list{
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: var(--color-fone)
+}
+
+.frierds-list{     
+    margin-right: 30px;
+    
+}
+
+.frierds-list:last-child{
+    margin-right: 0px;
+}
+
+.galery{
+    display: flex;
+    padding-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 0px;    
+}
+
+.galery .foto{
+    padding-right: 30px;
+}
+
+.galery .foto:last-child{
+    padding-right: 0;
+}
+
+
+.frends{
+    background: var(--batton-background-color);
+    padding-left: 0px;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 94px;        
+}
+
+
+.frends-name{    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;   
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.frends-prof{    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.19;    
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+/*batton*/
+
+.container-batton{
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100px;
+    width: 611;   
+}
+
+.container
+.container-batton{
+    width: 611px;
+    height: 54px;
+}
+
+.button{
+    color: var(--title-text-color);
+    background-color: var(--batton-background-color) 
+    
+}
+.button:hover,
+.button:focus{
+    color: var(--color-fone);
+    background-color: var(--accent-color);   
+}
+
+
+.pointer {
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 6px 22px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    min-width: 38px;
+    
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,63;
+    letter-spacing: 0.03em;
+  }
+
+.navlist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    padding-left: 0px;
+    margin-top: 128px;
+    margin-bottom: 0px;       
+}
+
+
+.navlist
+.navli{
+    margin-right: 8px;   
+}
+
+.navlist .navli:last-child{
+    margin-right: 0;
+}
+
+
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    /*background-color: aquamarine;*/
+    padding-left: 0px;
+    justify-content: space-between;
+
+}
+
+.flex-element{
+    width: 370px;
+    /*background-color: tomato;*/
+    margin-bottom: 30px;    
+}
+
+.flex-element:nth-last-child( -n + 3){
+    margin-bottom: 0;
+}
+
+.project-logo{ 
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+    
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.pl{
+    text-decoration: none;
+}
+
+.progject-text{   
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    margin-top: 4px;
+    margin-bottom: 20px;
+    margin-left: 24px;
+    margin-right: 24px;   
+}
+
+.address{
+    background-color: var(--background-color);
+}
+
+.address-map{ 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;    
+    letter-spacing: 0.03em;
+    color: var(--color-fone);
+    text-decoration: none;
+    
+}
+
+.addres-mail,
+.address-tel{    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;  
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    padding-top: 8px;    
+}
+
+
+.logo-footer{
+    color: var(--color-fone); 
+   
+}
+
+.logo-footer{
+    display: inline-block;       
+}
+
+.logo-foot{
+    margin-left: 0px;
+    margin-top: 60px;
+    padding-left: 0;    
+    padding-bottom: 0px;
+    display: block;    
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    
+}
+
+.adress-footer{
+    display: flex;
+    padding-left: 0px;    
+}
+
+.adress-ul{
+    display: inline-block;
+    padding-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
