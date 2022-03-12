@@ -10,8 +10,7 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css">
-    
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
 </head>
 
 
@@ -39,19 +38,17 @@
 
 
     
-    <main>
-        <div class="container">
-            <section class="heroys">
-                <h1 class="hero">Эффективные решения <br /> для вашего бизнеса</h1>
+    <main>        
+        <section class="heroy">
+            <div class="heroys"><h1 class="hero">Эффективные решения для вашего бизнеса</h1>
                 <a href="" class="button-hero">Заказать услугу</a>
-            </section>
-        </div>   
-        
-        
+            </div>                
+        </section>          
+                
         <section class="fishka">
             <div class="container">
                 <!--Особенности-->
-                <!--<h2 class="section-title">Преимущества</h2>-->
+                <h2 hidden class="section-title">Преимущества</h2>
                 <ul class="fiska-syle">
                     <li class="fitem">
                         <h3 class="fiska-a" >Внимание к деталям</h3>
@@ -86,36 +83,47 @@
             
         </section>
         <!--Команда-->
-        <div class="container">    
-            <section class="comanda">
-            
-                 <h2 class="section-title fone">Наша команда</h2>
-            
-                    <ul class="frends">
-                        <li class="frierds-list">
-                            <img src="./imagas/foto1.jpg" alt="Игорь Деияненко" width="270" height="260"/>
+           
+        <section class="comanda">
+            <div class="container">
+                <h2 class="section-title fone">Наша команда</h2>            
+                <ul class="frends">
+                    <li class="frierds-list">
+                        <img src="./imagas/foto1.jpg" alt="Игорь Деияненко" width="270" height="260"/>
+                        <div class="frend-box">
                             <h3 class="frends-name">Игорь Демьяненко</h3>
                             <p class="frends-prof">Product Designer</p>
-                        </li>
-                        <li class="frierds-list">
-                            <img src="./imagas/foto2.jpg" alt="Ольга Репина" width="270" height="260"/>
+                        </div>
+                        
+                    </li>
+                    <li class="frierds-list">
+                        <img src="./imagas/foto2.jpg" alt="Ольга Репина" width="270" height="260"/>
+                        <div class="frend-box">
                             <h3 class="frends-name">Ольга Репина</h3>
                             <p class="frends-prof">Frontend Developer</p>
-                        </li>
-                        <li class="frierds-list">
-                            <img src="./imagas/foto3.jpg" alt="Николай Тарасов" width="270" height="260"/>
+                        </div>
+                        
+                    </li>
+                    <li class="frierds-list">
+                        <img src="./imagas/foto3.jpg" alt="Николай Тарасов" width="270" height="260"/>
+                        <div class="frend-box">
                             <h3 class="frends-name">Николай Тарасов</h3>
                             <p class="frends-prof">Marketing</p>
-                        </li> 
-                        <li class="frierds-list"> 
-                            <img src="./imagas/foto4.jpg" alt="Михаил Ермаков" width="270" height="260"/>
+                        </div>
+                        
+                    </li> 
+                    <li class="frierds-list"> 
+                        <img src="./imagas/foto4.jpg" alt="Михаил Ермаков" width="270" height="260"/>
+                        <div class="frend-box">
                             <h3 class="frends-name">Михаил Ермаков</h3>
                             <p class="frends-prof">UI Designer</p>
-                        </li>
-                    </ul>          
-                      
-            </section>
-        </div>    
+                        </div>
+                        
+                    </li>
+                </ul> 
+            </div>                      
+        </section>
+           
     </main>
     
     
@@ -123,12 +131,12 @@
         <footer class="address">
              <!--Подвал--> 
              <div class="container">
-                <div class="logo-footer">
-                    <a class="logo-foot" href=".index.html">
-                        <span class="logo-web">Web</span><span class="logo-footer">Studio</span>
+                
+                <a class="logo-foot" href=".index.html">
+                    <span class="logo-web">Web</span><span class="logo-footer">Studio</span>
                         
-                    </a> 
-                </div>            
+                </a> 
+                         
                                  
                    
                 <address class="adress-footer">
